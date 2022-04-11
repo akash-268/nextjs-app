@@ -9,8 +9,8 @@ function DetailPage() {
 
   // send a request to the backend API
   // to fetch the news item with newsId
-
-  return <h1>The Detail Page</h1>
+  console.log(newsId);
+  return <h1>The {newsId} page</h1>
 }
 
 export default DetailPage;
